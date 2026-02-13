@@ -1,0 +1,12 @@
+# --- Core Data & API Interaction ---
+requests==2.31.0          # Essential for AESO API HTTP requests
+python-dotenv==1.0.1      # Secure management of .env credentials
+pandas==2.2.0             # High-performance data structures for valuation
+
+# --- Financial Analytics ---
+yfinance==0.2.36          # Pulling market betas and enterprise values
+numpy==1.26.4             # Quantitative support for DCF calculations
+
+# --- Formatting (Dev only) ---
+black==24.1.1             # Microsoft "Black" formatter for code consistency
+ruff==0.2.1               # High-speed linting for professional styling

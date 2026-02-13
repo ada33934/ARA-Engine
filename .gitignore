@@ -1,1 +1,24 @@
+# --- Security ---
 .env
+
+# --- Virtual Environments ---
+aeo_env/
+venv/
+env/
+
+# --- Python Cache & Metadata ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Visual Studio Code ---
+.vscode/
+
+# --- Local Data (Exclude raw data files) ---
+data/*.csv
+data/*.xlsx
