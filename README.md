@@ -19,3 +19,5 @@ The Alberta power grid is currently undergoing an accelerated transition, charac
 1. Initialize virtual environment: `python -m venv aeo_env`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Configure environment variables in `.env` (refer to .env.example).
+
+Disclaimer: Market data is sourced via the AESO API Gateway. This project is for analytical and educational purposes only. The author is not responsible for the accuracy of third-party data or any financial decisions made based on this software.
